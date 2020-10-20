@@ -15,20 +15,22 @@ main {
 
 
 
-p{width: 80%;
+p {width: 80%;
         margin-left:6em;
         font-size: 22px;
 }
 
-img{border-radius:40%;
-             padding:15% 10%;}
+img{
+    border-radius:40%;
+    padding:15% 10%;
 }
+
 @media (max-width:750px){
-     main {
+    main {
         grid-template-columns: 1fr;
-     }
-     img{width:70%;
+    }
+    img{width:70%;
          height: auto;
          grid-area: 2/1/span 1/span 1;
-}
+    }
 }
