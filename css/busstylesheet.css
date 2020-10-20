@@ -8,34 +8,33 @@ body {
 }
 
 main {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
-p{width: 80%;
-        margin-left:6em;
-        font-size: 22px;
+p {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    font-size: large;
 }
 
-img{width:70%;
-height:auto;
-border-radius:40%;
-    padding:15% 10%;
-    }
+img {
+    width:70%;
+    border-radius:40%;
+    padding: 10% 10%;
 }
 @media (max-width:750px){
-     main {
+    main {
         grid-template-columns: 1fr;
-     }
-     img{width:70%;
-         height: auto;
-         grid-area: 2/1/span 1/span 1;
-}
-}
-@media (max-width 1900px){
-    img{width:70%;
+    }
+    img {
+        width: 70%;
+        padding: 5% 15%;
         height: auto;
-        grid-area: 1/2/span 1/span 1;
+        grid-area: 2/1/span 1/span 1;
     }
 }
