@@ -40,7 +40,6 @@ img{min-width:10em;
     height:auto;
     padding: 1% 10%;
 }
-footer{font-size:0.75em; padding: 3% 10%}
 
 @media (max-width:400px) {
     #bigImage {
