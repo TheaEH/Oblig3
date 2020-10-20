@@ -14,7 +14,6 @@ main {
 #bigImage {
     background-image: url(../images/students.jpg);
     background-size: cover;
-    background-position-x: center;
     background-position-y: 45%;
     height: 55vh;
     box-shadow: inset black 1em 1em 10em;
