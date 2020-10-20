@@ -28,6 +28,11 @@ main p, main h2 {
     font-size: large;
 }
 
+h2 {
+    width: fit-content;
+    text-align: center;
+}
+
 @media (max-width:400px) {
     #bigImage {
         background-position-x: 35%;
