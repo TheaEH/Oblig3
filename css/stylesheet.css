@@ -32,6 +32,6 @@ main p, main h2 {
         background-position-x: 35%;
     }
 }
-.abtBusImg{width:50%; height: auto; padding:5% 10%; boarder-radius:20%;}
-@media only and screen(maxwidth: 2000px){.pBus{width: 70%; padding:5% 10%;}
+.abtBusImg{width:50%; height: auto; margin-left:1em; boarder-radius:20%;}
+@media (maxwidth: 2000px){.pBus{width: 70%; padding:5% 10%;margin-left:1em}
 }
