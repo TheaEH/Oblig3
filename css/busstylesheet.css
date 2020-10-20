@@ -31,13 +31,3 @@ img{border-radius:40%;
          height: auto;
          grid-area: 2/1/span 1/span 1;
 }
-
-@media (max-width:1900px){
-     main {
-        grid-template-columns: 1fr 1fr;
-     }
-     img{width:70%;
-     height:auto;
-     grid-area: 2/2/span 1/span 1;
-     }
-}
