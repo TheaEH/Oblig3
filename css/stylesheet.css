@@ -20,7 +20,7 @@ main {
     margin-bottom: 2em;
 }
 
-main p {
+main p, main h2 {
     width: 80%;
     margin: auto;
 }
