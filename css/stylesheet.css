@@ -25,6 +25,7 @@ main p, main h2 {
     width: 80%;
     margin: auto;
     margin-bottom: 1em;
+    font-size: large;
 }
 
 @media (max-width:400px) {
