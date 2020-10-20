@@ -1,3 +1,32 @@
 * {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+body {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+}
+
+#bigImage {
+    background-image: url(../images/bus.png);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 45%;
+    height: 55vh;
+    box-shadow: inset black 1em 1em 10em;
+    margin-bottom: 2em;
+}
+
+main p {
+    width: 80%;
+    margin: auto;
+}
+
+@media (max-width:400px) {
+    #bigImage {
+        background-position-x: 35%;
+    }
+}
