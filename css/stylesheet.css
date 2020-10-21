@@ -33,6 +33,10 @@ h2 {
     text-align: center;
 }
 
+p {
+    text-align: center;
+}
+
 @media (max-width:400px) {
     #bigImage {
         background-position-x: 35%;
