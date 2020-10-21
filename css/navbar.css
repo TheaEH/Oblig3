@@ -43,13 +43,6 @@ footer p {
     font-size: medium;
 }
 
-
-@media (max-width:1400px) {
-    nav {
-        grid-template-columns: repeat(3, auto);
-    }
-}
-
 @media (max-width:400px) {
     nav {
         grid-template-columns: repeat(1, auto);
