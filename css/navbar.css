@@ -8,7 +8,7 @@ nav {
     margin-top: 1em;
 }
 
-nav>a {
+nav a {
     background-color: darkslategray;
     padding: 5px;
     text-decoration: none;
@@ -16,7 +16,12 @@ nav>a {
     padding: 1em 0 1em 0;
     border: 1px solid darkslategray;
 }
-nav>a:hover, nav>a:target {
+nav a:hover {
+    background-color: whitesmoke;
+    color: darkslategray;
+}
+
+nav a:focus {
     background-color: whitesmoke;
     color: darkslategray;
 }
