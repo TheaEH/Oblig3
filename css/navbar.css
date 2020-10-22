@@ -1,7 +1,8 @@
 body {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    height: 99%;
+    height: 100%;
+    margin: auto;
 }
 
 nav {
@@ -37,13 +38,10 @@ footer {
     grid-template-rows: repeat(2, auto);
     justify-items: center;
     width: 50%;
+    margin: auto;
     margin-top: 2%;
     padding: 1vh 1vw 1vh 1vw;
     background-color: darkslategray;
-    position: absolute;
-    bottom: 1em;
-    left: 25%;
-    right: 25%;
 }
 footer p {
     width: fit-content;
@@ -53,7 +51,7 @@ footer p {
     font-size: medium;
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
     nav {
         grid-template-columns: repeat(1, auto);
     }
